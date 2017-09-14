@@ -98,7 +98,6 @@ func main()  {
 			fmt.Println("OS could not detect")
 
 	}
-	fmt.Println("")
-	fmt.Println(mySqrt(10))
+	fmt.Println("The sqrt of 10 is : ", mySqrt(10))
 
 }

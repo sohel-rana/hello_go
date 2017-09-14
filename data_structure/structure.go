@@ -76,4 +76,11 @@ func main()  {
 
 	fmt.Println("Printing slices with size and capacity")
 	printSlices(q)
+
+	makeVar := make([]int, 5)
+	fmt.Println("Created arry with make makeVar: ", makeVar)
+
+	makeVar2 := make([]int, 2, 5);
+	fmt.Println("initialzed with 2, created with make(): ", makeVar2)
+
 }
